@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ceil {
+    border: 1px solid #000;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bomb {
+    background: url(./img/bomb.png) center #ff0000;
+    background-size: contain;
+}
+
+.emptyCeil {
+    background-color: #00ff00;
+}
+
+.row {
+    display: flex;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
